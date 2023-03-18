@@ -1,0 +1,253 @@
+<!DOCTYPE>
+<html>
+	<head>
+        <meta charset="utf-8">
+		<title>My Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="WD48P_CamilleImperial_Portfolio_v4.css">       
+    <body>
+
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #444346">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand" style="padding-left: 20px;font-family: Roca one;">
+                <img src="logo.png" width="30px">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#myHome" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#myProfile" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#myExperience" class="nav-link">Experience</a>
+                        <!-- <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#industry">Industry</a></li>
+                            <li><a class="dropdown-item" href="#system-btn">Operating System</a></li>
+                            <li><a class="dropdown-item" href="#position-btn">Position</a></li>
+                            <li><a class="dropdown-item" href="#work-btn">Work Scope</a></li>
+                        </ul> -->
+                    </li>
+                    <li class="nav-item">
+                        <a href="#myContact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </nav>
+    <!--Section 1 Home-->
+    <section id="myHome">
+        <div id="hello">
+            <h4>Hello there!</h4>
+            <img src="ACC2.png" alt="name" id="name">
+            <h6 class="text-center">Welcome to my Portfolio</h6>
+        </div>
+        <img src="home vid (2).gif" alt="homevid" id="homevid">
+        <!-- <div id="quote">
+            <h4 class="text-center">Do your ordinary duty extra ordinarily well</h4>
+            <br>
+            <footer class="blockquote-footer text-center text-dark">Saint John Bosco</footer>
+        </div> -->
+    </section>
+
+    <!--Section 2 Profile-->
+    <section id="myProfile" class="pt-5">
+        <div id="profile">
+            <img src="ACC1.gif" alt="name" id="acctg">
+            <img src="8.jpg" alt="prof" id="prof1">
+            <p>"As an accountant and former auditor with a passion for baking, I bring a unique blend of analytical and creative skills to any project. When I'm not crunching numbers, you can find me in the kitchen experimenting with new recipes and perfecting old favorites. As a devoted mother and proud parent of a son, I understand the importance of balancing work and family commitments, and I strive to excel in both areas. Whether I'm managing a complex financial report or whipping up a batch of cookies, I approach every task with dedication, attention to detail, and a commitment to excellence."</p>
+            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">Know me more >>></button>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+            <div class="offcanvas-header">
+                <h4 class="offcanvas-title" id="offcanvasWithBackdropLabel" style="font-family: Roca One;">Camille de Guzman-Imperial</h4>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            
+            <div class="offcanvas-body">
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td>Present Address</td>
+                            <td>:</td>
+                            <td>Blk 8 Lot 20, J Felipe St. Chrysanthemum Village, San Pedro Laguna</td>
+                        </tr>
+                        <tr>
+                          <td>Contact Number</td>
+                          <td>:</td>
+                          <td>+63-915-448-2567</td>
+                        </tr>
+                        <tr>
+                          <td>Date of Birth</td>
+                          <td>:</td>
+                          <td>June 4, 1990</td>
+                        </tr>
+                        <tr>
+                            <td>Civil Status</td>
+                            <td>:</td>
+                            <td>Married</td>
+                        </tr>
+                        <tr>
+                            <td>Civil Status</td>
+                            <td>:</td>
+                            <td>Filipino</td>
+                        </tr>
+                        <tr>
+                            <td>Height</td>
+                            <td>:</td>
+                            <td>5'2"</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="(WD48P) IMPERIAL, CAMILLE DG. (1).docx" download>
+                    <button id="cv" class="btn w-50">
+                      Download my CV
+                    </button>
+                  </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Experience-->
+    <section id="myExperience">
+        <div id="experience">
+            <h1>Experience</h1>
+
+            <!--Nav Bar-->
+            <ul class="nav nav-tabs" role="tablist">
+                <il class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#industry">Industry</a>
+                </il>
+                <il class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#system" id="system-btn">System</a>
+                </il>
+                <il class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#position" id="position-btn">Position</a>
+                </il>
+                <!-- <il class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#work-scope" id="work-btn">Work Scope</a>
+                </il> -->
+            </ul>
+            <!--Tab panes-->
+            <div class="tab-content">
+                <div id="industry" class="container tab-pane active"><br>
+                    <h2 style="color:#c28663">Industry</h2>
+                    <div id="fuel">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2979/2979656.png" alt="fuel" class="img_fuel">
+                        <h4><strong>Seaoil Philippines Inc.,</strong><br>
+                        Ocean Tankers Corporation, Seaoil Foundation Inc.,<br>
+                        Serv Central Inc., Gazz Up Inc., Emerald Fields Trading Inc.</h4><br>
+                        <p>22nd Flr. The Taipan Place Bldg. Ortigas Center, Pasig City<br>
+                        March 28, 2017 - Present</p>
+                    </div>
+                    <div id="retail">
+                        <img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-1367275,resizemode-1,msid-88695101/prime/consumer/social-commerce-metaverse-et-al-technology-led-business-models-likely-to-dominate-retail-in-2022-.jpg" alt="retail">
+                        <h4><strong>Rustan Marketing Specialists, Inc.(Marks & Spencer Philippines)</strong><br>
+                            Rustan Specialty Concepts, Inc. (Debenhams Philippines)
+                            Specialty Food Retailers Inc. (TWG-Tea, O&Co., Salad Stop!)</h4><br>
+                        <p>4th Flr., Urban Bldg. 405 Sen. Gil Puyat Ave. Makati City<br>
+                            November 22, 2014 - March 27, 2022</p>
+                    </div>
+                    <div id="ad">
+                        <img src="https://checkbrand.online/frontend/images/innerpages/digitalmarketing_1.gif" alt="ad">
+                        <h4><strong>Creative Gateway Inc.</strong></h4><br>
+                        <p>1869 P. Domingo St. Brgy. Kasilawan, Makati City<br>
+                            February 14, 2011 - November 18, 2014</p>
+                    </div>
+                    <div id="food">
+                        <img src="https://i.gifer.com/origin/e9/e9e81b02205407f4372fdce726a6cf54.gif" alt="food">
+                        <h4><strong>MoringaPower Foods Corp.</strong></h4><br>
+                        <p>#61 Capitol 8 Brgy. Kapitolyo, Pasig City<br>
+                            May 16, 2010 - January 31, 2011</p>
+                    </div>
+                </div>
+                <div id="system" class="container tab-pane"><br>
+                    <h3 style="color:#c28663">Operating System</h3>
+                    <div id="system1" class="row pt-5 pb-5 justify-content-center">
+                        <h4 class="text-center" style="color:#c28663">WEB DEVELOPMENT</h4>
+                        <div id="html">
+                            <img src="https://freeiconshop.com/wp-content/uploads/edd/html-flat.png" alt="html" class="d-block w-75 mx-auto">
+                        </div>
+                        <div id="css">
+                            <img src="https://img.freepik.com/free-icon/css_318-435341.jpg?w=360" alt="css" class="d-block w-75 mx-auto">
+                        </div>
+                        <div id="js">
+                            <img src="https://cdn-icons-png.flaticon.com/512/919/919828.png" alt="js" class="d-block w-75 mx-auto">
+                        </div>
+                    </div>
+                    <div id="system2" class="row pt-5 justify-content-center">
+                        <h4 class="text-center" style="color:#c28663">ACCOUNTING SYSTEM</h4>
+                        <div class="col-sm-4 col-md-4 col-lg-2 m-4 p-1 border rounded">
+                            <img src="https://www.morphsites.com/assets/oracle-netsuite-logo-colour.png" alt="ns" class="d-block w-75 mx-auto">
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 m-4 p-1 bg-white border rounded">
+                            <img src="https://img.icons8.com/color/512/oracle-logo.png" alt="oracle" class="d-block w-75 mx-auto">
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 m-4 p-1 bg-white border rounded">
+                            <img src="https://cdn-icons-png.flaticon.com/512/882/882701.png" alt="sap" class="d-block w-75 mx-auto">
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-2 m-4 p-1 bg-white border rounded">
+                            <img src="https://lh4.ggpht.com/EidMPEDr8axao3TNE93hx0MbNSI5nPJbab4XWlaW7Qmgt-oetFK1DdxYr5_ChAwhcA" alt="myob" class="d-block w-75 mx-auto">
+                        </div>
+                    </div>
+                </div>
+                <div id="position" class="container tab-pane fade"><br>
+                    <h3 style="color:#c28663">Position</h3>
+                    <p id="sup">Accounting Supervisor<i class="fa fa-arrow-up"></i></p>
+                    <p id="oic">Accounting OIC</p>
+                    <p id="officer">Accounting Officer</p>
+                    <p id="audit">Audit Officer</p>
+                    <p id="asst">Accounting Assitant</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact-->
+        <section id="myContact">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div id="contact">
+                        <h1 class="text-center">Contact Me</h1>
+                        <h4 class="text-center fw-light">I'll be glad to answer your question!</h4>
+                        <div class="col-sm-9 col-lg-6 mb-3 mt-3 pt-3 d-block mx-auto">
+                            <input type="name" class="form-control" id="name" placeholder="Full Name" name="name"><br>
+                            <input type="email" class="form-control" id="email" placeholder="Email" name="email"><br>
+                            <input type="text" class="form-control" id="text" placeholder="Subject" name="text"><br>
+                            <textarea class="form-control" rows="5" id="comment" placeholder="Your Message" name="text"></textarea><br>
+                            <button type="submit" class="btn text-white" style="background-color: #c28663;">Submit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 pt-5">
+                    <div id="link" class="col border rounded bg-white">
+                        <div class="row">
+                            <a id="mail" class="text-center" href="mailto:cam.ddeguzman@gmail.com"><img src="https://thumbs.gfycat.com/GiddyDisastrousLadybird-max-1mb.gif" alt="message" class="d-block w-75 mx-auto"></a>
+                        </div>
+                        <div class="row text-center">
+                            <p style="font:#c28663">and</p><br>
+                            <h5 style="font:#c28663">follow me on social</h5>    
+                        </div>
+                        <div class="row pt-5">
+                            <a id="fb" class="text-center" href="https://web.facebook.com/camille.deguzman.7/"><i class="fa fa-facebook-square" style="font-size:36px;color:#3B5998"></i></a>
+                        </div>
+                        <div class="row pt-5 pb-5">
+                            <a id="linkedin" class="text-center" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fcamille-de-guzman-895a61256%3Ffbclid%3DIwAR1gq4WnwCuWYLU3VtHtn2oqiNBxvz0Mb8iXY3UTPB35JMONa2AxJNr6oqI&h=AT2EqkIXx33U76gS634QiopKnjvV5xh6fd-yX3vdeujpTRaOa-pR1r15cP1xTCk74GrF7ZP1GOdG4fVfOzWfZ6UXbW6Fb8QFDoblQ0hWiMBAKRUmZvildGKzwxEKdjg86DH7_A"><i class="fa fa-linkedin" style="font-size:36px;color:#007bb5"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+          
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
